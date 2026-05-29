@@ -30,7 +30,8 @@ namespace CyberSecurityChatbot_Part2
                 "Make sure to use strong, unique passwords for each account. Avoid using personal details in your passwords.",
                 "Enable two-factor authentication to add an extra layer of security to your accounts.",
                 "Never reuse passwords across multiple sites — if one is breached, all accounts become vulnerable.",
-                "Consider using a trusted password manager to generate and store complex passwords safely."
+                "Consider using a trusted password manager to generate and store complex passwords safely.",
+                "Create passwords with at least 12 characters."
             });
 
             responses.Add("phishing", new List<string>
