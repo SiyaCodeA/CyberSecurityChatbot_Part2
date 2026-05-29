@@ -94,8 +94,8 @@
                     Content="Send"
                     Height="38" Margin="8,0,0,0"
                     Background="Black" Foreground="Lime"
-                    FontFamily="Consolas" FontWeight="Bold"
                     BorderBrush="Lime"
+                    FontFamily="Consolas" FontWeight="Bold"
                     Click="btnSend_Click"/>
 
             <Button Name="btnBack"
@@ -103,8 +103,8 @@
                     Content="◀ Menu"
                     Height="38" Margin="8,0,0,0"
                     Background="Black" Foreground="Yellow"
-                    FontFamily="Consolas" FontWeight="Bold"
                     BorderBrush="Yellow"
+                    FontFamily="Consolas" FontWeight="Bold"
                     Visibility="Collapsed"
                     Click="btnBack_Click"/>
         </Grid>
