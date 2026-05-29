@@ -7,7 +7,7 @@ The chatbot educates users about cybersecurity topics such as:
 - phishing
 - password safety
 - online scams
-- privacy protection
+
 
 The application includes sentiment detection, memory recall and dynamic responses to improve conversational flow and user interaction.
 
@@ -27,7 +27,6 @@ The application includes sentiment detection, memory recall and dynamic response
 
 - C#
 - WPF
-- .NET Framework
 - Visual Studio
 - GitHub
 
