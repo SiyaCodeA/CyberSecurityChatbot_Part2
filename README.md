@@ -73,7 +73,10 @@ This repository includes:
 ## Video Demonstration
 
 YouTube Presentation Video:
-https://youtu.be/Aeo1geOvJiM
+Click [here](https://youtu.be/Aeo1geOvJiM) to watch the video presentation
+
 
 ## Author
-Siyamthanda
+Siyamthanda Mkhatshwa
+
+AI tools were used to assist with code improvement and debugging during this project.
