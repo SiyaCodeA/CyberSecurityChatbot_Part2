@@ -218,17 +218,26 @@ namespace CyberSecurityChatbot_Part2
         // sentiment detection based on keywords
         private string DetectSentiment(string input)
         {
-            if (input.Contains("worried") || input.Contains("scared") ||
-                input.Contains("anxious") || input.Contains("concerned"))
+            if (input.Contains("worried") || 
+                input.Contains("scared") ||
+                input.Contains("anxious") ||
+                input.Contains("concerned"))
                 return "It's completely understandable to feel that way. Let me share some tips to help you stay safe. ";
 
-            if (input.Contains("frustrated") || input.Contains("angry") || input.Contains("confused"))
+            if (input.Contains("frustrated") || 
+                input.Contains("angry") || 
+                input.Contains("confused"))
                 return "I hear you — cybersecurity can feel overwhelming. Let me help clarify things. ";
 
-            if (input.Contains("curious") || input.Contains("interested") || input.Contains("excited"))
+            if (input.Contains("curious") || 
+                input.Contains("interested") || 
+                input.Contains("excited"))
                 return "That's great to hear — curiosity is the first step to staying safe! ";
 
-            if (input.Contains("happy") || input.Contains("glad") || input.Contains("good"))
+            if (input.Contains("happy") ||
+                input.Contains("glad") || 
+                input.Contains("good") ||
+                input.Contains("awesome"))
                 return "Glad to hear that! ";
 
             return "";
