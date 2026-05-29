@@ -77,7 +77,8 @@ namespace CyberSecurityChatbot_Part2
             {
                 "Always check for HTTPS and a padlock icon before entering any personal or payment details.",
                 "Avoid clicking unfamiliar links — hover over them first to preview the destination URL.",
-                "Keep your browser and all extensions updated to protect against known security vulnerabilities."
+                "Keep your browser and all extensions updated to protect against known security vulnerabilities.",
+                "Never save passwords on public or shared computers."
             });
 
             responses.Add("how are you", new List<string>
@@ -212,7 +213,9 @@ namespace CyberSecurityChatbot_Part2
                    input.Contains("tell me more") ||
                    input.Contains("explain more") ||
                    input.Contains("elaborate") ||
-                   input.Contains("continue");
+                   input.Contains("continue") ||
+                   input.Contains("go on") ||
+                   input.Contains("keep going");
         }
 
         // sentiment detection based on keywords
